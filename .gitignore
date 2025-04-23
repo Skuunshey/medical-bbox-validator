@@ -1,0 +1,25 @@
+# Dossiers de données
+masks/
+Miccai 2022 BUV Dataset/
+**/masks/
+**/Miccai*
+
+# Fichiers générés par le script
+*.json
+*.csv
+to_fix.txt
+validations.json
+bounding_boxes.json
+bounding_boxes.csv
+
+# Fichiers système
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Environnements virtuels
+venv/
+env/
+.venv/
